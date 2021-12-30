@@ -1,5 +1,5 @@
 {
-  "homepage": "http://insdamipn.github.io/nft-poc-ui"
+  "homepage": "http://insdamipn.github.io/nft-poc-ui",
   "name": "@project/monorepo",
   "version": "1.0.0",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "private": true,
   "scripts": {
-    "predeploy": "yarn react-app:build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "subgraph:auth": "yarn workspace @project/subgraph auth",
     "subgraph:codegen": "yarn workspace @project/subgraph codegen",
